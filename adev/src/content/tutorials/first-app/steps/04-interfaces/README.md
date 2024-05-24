@@ -31,7 +31,7 @@ In the **Terminal** pane of your IDE:
 
     <docs-code language="shell">
 
-    ng generate interface housinglocation
+    ng generate interface housingLocation
 
     </docs-code>
 
@@ -45,10 +45,10 @@ In the **Terminal** pane of your IDE:
 This step adds the properties to the interface that your app needs to represent a housing location.
 
 1. In the **Terminal** pane of your IDE, start the `ng serve` command, if it isn't already running, to build the app and serve it to `http://localhost:4200`.
-1. In the **Edit** pane of your IDE, open the `src/app/housinglocation.ts` file.
-1. In `housinglocation.ts`, replace the default content with the following code to make your new interface to match this example.
+1. In the **Edit** pane of your IDE, open the `src/app/housing-location.ts` file.
+1. In `housing-location.ts`, replace the default content with the following code to make your new interface to match this example.
 
-    <docs-code header="Update src/app/housinglocation.ts to match this code" path="adev/src/content/tutorials/first-app/steps/05-inputs/src/app/housinglocation.ts" visibleLines="[1,10]" />
+    <docs-code header="Update src/app/housing-location.ts to match this code" path="adev/src/content/tutorials/first-app/steps/05-inputs/src/app/housing-location.ts" visibleLines="[1,10]" />
 
 1. Save your changes and confirm the app does not display any errors. Correct any errors before you continue to the next step.
 
